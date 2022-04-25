@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Salesforce_Commerce_API</label>
+    <protected>false</protected>
+    <values>
+        <field>Access_Token_URL__c</field>
+        <value xsi:type="xsd:string">https://account.demandware.com/dwsso/oauth2/access_token</value>
+    </values>
+    <values>
+        <field>Auth_Provider_Name__c</field>
+        <value xsi:type="xsd:string">Salesforce_Commerce_API</value>
+    </values>
+    <values>
+        <field>Callback_URL__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Client_Id__c</field>
+        <value xsi:type="xsd:string">ed0a8333-01e4-4705-811c-c7dd07bdb5ac</value>
+    </values>
+    <values>
+        <field>Client_Secret__c</field>
+        <value xsi:type="xsd:string">password!</value>
+    </values>
+    <values>
+        <field>Scope__c</field>
+        <value xsi:type="xsd:string">SALESFORCE_COMMERCE_API:abcd_001 sfcc.customerlists.rw</value>
+    </values>
+</CustomMetadata>
