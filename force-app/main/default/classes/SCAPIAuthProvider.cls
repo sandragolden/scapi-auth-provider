@@ -63,7 +63,7 @@ public class SCAPIAuthProvider extends Auth.AuthProviderPluginClass {
     private String getCallbackUrl(Map<String, String> config) {
         // https://{salesforce-hostname}/services/authcallback/{urlsuffix}
         final String overrideUrl = config.get(CMT_FIELD_CALLBACK_URL);
-        final String generatedUrl = Url.getSalesforceBaseUrl().toExternalForm() + RESOURCE_CALLBACK + config.get('Auth_Provider_Name__c');
+        final String generatedUrl = Url.getSalesforceBaseUrl().toExternalForm() + RESOURCE_CALLBACK + config.get(CMT_FIELD_PROVIDER_NAME);
         return String.isEmpty(overrideUrl) ? generatedUrl : overrideUrl;
     }
 

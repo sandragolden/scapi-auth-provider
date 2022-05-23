@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <AuthProvider xmlns="http://soap.sforce.com/2006/04/metadata">
-    <customMetadataTypeRecord>SCAPI_Auth_Provider__mdt.Salesforce_Commerce_API</customMetadataTypeRecord>
-    <executionUser>test-rbp4wncecxlk@example.com</executionUser>
-    <friendlyName>Salesforce_Commerce_API</friendlyName>
+    <customMetadataTypeRecord>SCAPI_Auth_Provider__mdt.B2C</customMetadataTypeRecord>
+    <executionUser>test-lmuleqgbzvhv@example.com</executionUser>
+    <friendlyName>B2C</friendlyName>
     <includeOrgIdInIdentifier>false</includeOrgIdInIdentifier>
     <plugin>SCAPIAuthProvider</plugin>
     <providerType>Custom</providerType>
